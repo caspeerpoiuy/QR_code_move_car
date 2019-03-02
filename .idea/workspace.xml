@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9044115-fc93-44ca-862b-ee46022bbf6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/QR_code_move_car.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/controller/main_controllers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/lib/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/lib/captcha/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/util/DbOperation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/util/DbOperation/mysql_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/views/Login_Views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/views/Verify_Views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR_code_move_car/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/captcha/captcha/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/captcha/captcha/captcha.py" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/lib/captcha/captcha/captcha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/captcha/captcha/fonts/Arial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/lib/captcha/captcha/fonts/Arial.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/captcha/captcha/fonts/Georgia.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/lib/captcha/captcha/fonts/Georgia.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/captcha/captcha/fonts/actionj.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/lib/captcha/captcha/fonts/actionj.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/docs/httpclient.m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/docs/sms.m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/docs/util.m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/docs/voice.m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/gendoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/qcloudsms_py/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/qcloudsms_py/httpclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/qcloudsms_py/sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/qcloudsms_py/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/qcloudsms_py/voice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/qcloudsms_py-master/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/DbOperation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/DbOperation/mysql_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/controller/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/DbOperation/redis_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/QR_code_move_car/util/DbOperation/redis_utils.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="QR_code_move_car" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QR_code_move_car/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QR_code_move_car/views/Verify_Views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QR_code_move_car/views/Login_Views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/qrcode.html" />
+        <option value="$PROJECT_DIR$/util/DbOperation/operation_redis.py" />
+        <option value="$PROJECT_DIR$/util/DbOperation/mysql_utils.py" />
+        <option value="$PROJECT_DIR$/practice.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/QR_code_move_car/configuration.py" />
+        <option value="$PROJECT_DIR$/QR_code_move_car/controller/main_controllers.py" />
+        <option value="$PROJECT_DIR$/QR_code_move_car/views/Login_Views.py" />
+        <option value="$PROJECT_DIR$/QR_code_move_car/main.py" />
+        <option value="$PROJECT_DIR$/QR_code_move_car/views/Verify_Views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1206" />
+    <option name="height" value="966" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QR_code_move_car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QR_code_move_car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QR_code_move_car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QR_code_move_car" type="462c0819:PsiDirectoryNode" />
+              <item name="QR_code_move_car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QR_code_move_car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QR_code_move_car" type="462c0819:PsiDirectoryNode" />
+              <item name="QR_code_move_car" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/QR_code_move_car/lib/qcloudsms_py-master" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/QR_code_move_car/lib/qcloudsms_py-master" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\echnxxx\Desktop\QR_code_move_car\QR_code_move_car" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\echnxxx\Desktop\QR_code_move_car\lib" />
+      <recent name="C:\Users\echnxxx\Desktop\QR_code_move_car" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QR_code_move_car" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QR_code_move_car" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QR_code_move_car/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QR_code_move_car" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\echnxxx\Desktop\QR_code_move_car\QR_code_move_car\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9044115-fc93-44ca-862b-ee46022bbf6d" name="Default Changelist" comment="" />
+      <created>1551354561206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551354561206</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1551361848654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551361848654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="url forward function">
+      <created>1551363568956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551363568956</updated>
+    </task>
+    <task id="LOCAL-00003" summary="generate qrcode">
+      <created>1551428317980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551428317980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="integrate send phone message libs">
+      <created>1551514376217</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551514376217</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973357" visible="true" weight="0.2337043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5026643" side_tool="true" weight="0.1518283" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.6358792" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50158983" side_tool="true" weight="0.634103" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973357" visible="true" weight="0.2337043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5026643" side_tool="true" weight="0.1518283" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.63232684" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="url forward function" />
+    <MESSAGE value="generate qrcode" />
+    <MESSAGE value="integrate send phone message libs" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrate send phone message libs" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qrcode.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="604" column="8" selection-start-line="604" selection-start-column="8" selection-end-line="604" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask_restful/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="542" column="6" selection-start-line="542" selection-start-column="6" selection-end-line="542" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="2308" selection-start-line="2308" selection-end-line="2308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/qrcode/image/pil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/itsdangerous/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/qrcode/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/itsdangerous/jws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/qrcode/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="272" column="8" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/123.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/util/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/lib/qcloudsms_py-master/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/lib/qcloudsms_py-master/qcloudsms_py/httpclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/qcloudsms_py/sms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/util/DbOperation/mysql_utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/util/DbOperation/redis_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/controller/main_controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/views/Login_Views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_code_move_car/views/Verify_Views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

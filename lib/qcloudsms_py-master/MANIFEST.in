@@ -1,6 +1,0 @@
-recursive-include qcloudsms_py *.py
-recursive-include docs *
-prune docs/build
-include LICENSE
-include README
-include gendoc.py
