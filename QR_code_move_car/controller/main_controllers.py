@@ -10,6 +10,6 @@ app = Flask(__name__)
 api = Api(app)
 
 api.add_resource(Login, '/login/<id>')
-api.add_resource(Verify, '/verify/')
+api.add_resource(Verify, '/verify/<uuid>')
 api.add_resource(Register, '/register/')
 api.add_resource(Apply_QrCode, '/qrcode/')
