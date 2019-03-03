@@ -1,19 +1,25 @@
 {
-  "name": "parking-react",
+  "name": "clientent_move_car",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "antd-mobile": "^2.2.9",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
+  },
+  "scripts1": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
-    "eject": "react-scripts eject",
-    "client":"serve-build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,6 +32,6 @@
   ],
   "devDependencies": {
     "babel-plugin-import": "^1.11.0",
-    "react-app-rewired": "^2.1.0"
+    "react-app-rewired": "^2.0.2-next.0"
   }
 }
