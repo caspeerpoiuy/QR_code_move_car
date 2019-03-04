@@ -10,3 +10,7 @@ class DBException(InvalidOperation, Exception):
 class RedisException(InvalidOperation, Exception):
     pass
 
+
+class NoDataInRedis(InvalidOperation, Exception):
+    pass
+
