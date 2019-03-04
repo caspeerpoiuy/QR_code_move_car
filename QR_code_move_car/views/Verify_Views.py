@@ -1,10 +1,10 @@
 from flask import make_response
 from flask_restful import Resource
 
-from QR_code_move_car.constants import REDIS_EXPIRE_TIME
-from QR_code_move_car.lib.captcha.captcha import captcha
-from QR_code_move_car.util.DbOperation.redis_utils import OperationRedis
-from QR_code_move_car.util.ExceptionUtils import RedisException
+from constants import REDIS_EXPIRE_TIME
+from lib.captcha.captcha import captcha
+from util.DbOperation.redis_utils import OperationRedis
+from util.ExceptionUtils import RedisException
 
 
 class Verify(Resource):

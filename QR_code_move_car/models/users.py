@@ -16,3 +16,5 @@ class User(Config.db.Model, BaseModel):
     mobile = Config.db.Column(Config.db.String(11), unique=True, nullable=False)
     plate_number = Config.db.Column(Config.db.String(64), unique=True, nullable=False)
     is_admin = Config.db.Column(Config.db.Boolean, default=False)
+
+

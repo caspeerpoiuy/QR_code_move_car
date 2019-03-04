@@ -2,9 +2,9 @@ from flask_restful import Resource
 
 
 class Register(Resource):
-    def get(self):
-        # TODO:
-        pass
+    @staticmethod
+    def get():
+        return {"a":"2"}
 
     def post(self):
         pass

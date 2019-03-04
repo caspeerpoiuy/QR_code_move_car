@@ -8,9 +8,9 @@ class Apply_QrCode(Resource):
         qr = qrcode.QRCode(version=5, error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=8, border=4)
         qr.add_data("right")
         qr.make(fit=True)
-        img = qr.make_image(fill_color="red", back_color="white")
+        img = qr.make_image(fill_color="black", back_color="white")
         img = img.convert("RGBA")
-        icon = Image.open("1.png")
+        icon = Image.open("扫码挪车.jpg")
         img_w, img_h = img.size
         factor = 4
         size_w = int(img_w / factor)
@@ -26,7 +26,6 @@ class Apply_QrCode(Resource):
         icon = icon.convert("RGBA")
         img.paste(icon, (w, h), icon)
         img.save("123.png")
-
 
     def post(self):
         pass

@@ -1,12 +1,12 @@
-from flask import Flask
 from flask_restful import Api
 
-from QR_code_move_car.views.Login_Views import Login
-from QR_code_move_car.views.QRCode_Views import Apply_QrCode
-from QR_code_move_car.views.Register_Views import Register
-from QR_code_move_car.views.Verify_Views import Verify
+from Settings.configuration import create_app
+from views.Login_Views import Login
+from views.QRCode_Views import Apply_QrCode
+from views.Register_Views import Register
+from views.Verify_Views import Verify
 
-app = Flask(__name__)
+app = create_app("dev")
 api = Api(app)
 
 api.add_resource(Login, '/login/<id>')
