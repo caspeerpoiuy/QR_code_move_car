@@ -1,20 +1,20 @@
 from datetime import datetime
-from Settings.configuration import Config
+from Settings.configuration import db
 
 
 class BaseModel(object):
-    create_time = Config.db.Column(Config.db.Datetime, default=datetime.now())
-    update_time = Config.db.Column(Config.db.Datetime, default=datetime.now())
+    create_time = db.Column(db.DateTime, default=datetime.now())
+    update_time = db.Column(db.DateTime, default=datetime.now())
 
 
-class User(Config.db.Model, BaseModel):
+class User(db.Model, BaseModel):
     __tablename__ = 'users'
-    id = Config.db.Column(Config.db.Integer, primary_key=True)
-    username = Config.db.Column(Config.db.String(64), unique=True, nullable=False)
-    email = Config.db.Column(Config.db.String(128), unique=True, nullable=False)
-    password_hash = Config.db.Column(Config.db.String(64), nullable=False)
-    mobile = Config.db.Column(Config.db.String(11), unique=True, nullable=False)
-    plate_number = Config.db.Column(Config.db.String(64), unique=True, nullable=False)
-    is_admin = Config.db.Column(Config.db.Boolean, default=False)
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(64), unique=True, nullable=False)
+    email = db.Column(db.String(128), unique=True, nullable=False)
+    password_hash = db.Column(db.String(64), nullable=False)
+    mobile = db.Column(db.String(11), unique=True, nullable=False)
+    plate_number = db.Column(db.String(64), unique=True, nullable=False)
+    is_admin = db.Column(db.Boolean, default=False)
 
 

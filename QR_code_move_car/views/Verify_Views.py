@@ -1,4 +1,4 @@
-from flask import make_response
+from flask import make_response, request
 from flask_restful import Resource
 
 from constants import REDIS_EXPIRE_TIME
@@ -22,7 +22,16 @@ class Verify(Resource):
         response.content_type = "img/png·"
         return response
 
-    @staticmethod
-    def post():
-        # TODO: need arguments uuid, code, mobile
-        pass
+
+def post():
+    mobile = request.json.get("mobile")
+    image_code = request.json.get("image_code")
+    uuid = request.json.get("uuid")
+    if not all([mobile, image_code, uuid]):
+        return
+    try:
+        redis_image = OperationRedis.get_redis().get(uuid)
+    except Exception as e:
+        print(e)
+    if not redis_image:
+        return
