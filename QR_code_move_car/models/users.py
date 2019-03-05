@@ -11,10 +11,12 @@ class User(db.Model, BaseModel):
     __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), unique=True, nullable=False)
-    email = db.Column(db.String(128), unique=True, nullable=False)
+    email = db.Column(db.String(128), unique=True)
     password_hash = db.Column(db.String(64), nullable=False)
-    mobile = db.Column(db.String(11), unique=True, nullable=False)
-    plate_number = db.Column(db.String(64), unique=True, nullable=False)
+    mobile = db.Column(db.String(11), unique=True)
+    plate_number = db.Column(db.String(64), unique=True)
     is_admin = db.Column(db.Boolean, default=False)
 
-
+    def __init__(self, username, password):
+        self.username = username
+        self.password_hash = password
