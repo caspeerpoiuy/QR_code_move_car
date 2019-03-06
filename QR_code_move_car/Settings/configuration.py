@@ -20,7 +20,7 @@ def create_app(config):
 
 class Config(object):
     SECRET_KEY = 'b2ELCml6Sq4o831hpZWYIN7x5A5W3uSKV8VIpeg5aTnlnYmgZ3X6BDUOPwyJo8ggQXCcO3oNY6xdnrRDuh0TQA=='
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123@localhost:3306/qr_code_move_car"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@localhost:3306/qr_code_move_car"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     print("migrate")
     # send message configuration

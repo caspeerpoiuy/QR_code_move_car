@@ -12,7 +12,7 @@ class User(db.Model, BaseModel):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), unique=True, nullable=False)
     email = db.Column(db.String(128), unique=True)
-    password_hash = db.Column(db.String(64), nullable=False)
+    password_hash = db.Column(db.String(256), nullable=False)
     mobile = db.Column(db.String(11), unique=True)
     plate_number = db.Column(db.String(64), unique=True)
     is_admin = db.Column(db.Boolean, default=False)
