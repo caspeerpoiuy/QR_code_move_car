@@ -19,7 +19,7 @@ class Verify(Resource):
         except RedisException as e:
             print(e)
         response = make_response(image)
-        response.content_type = "img/png·"
+        response.content_type = "img/png"
         return response
 
 

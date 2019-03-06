@@ -9,6 +9,9 @@ from views.Verify_Views import Verify
 app = create_app("dev")
 api = Api(app)
 
+
+
+
 api.add_resource(Login, '/login/<id>')
 api.add_resource(Verify, '/verify/<uuid>')
 api.add_resource(Register, '/register/')
