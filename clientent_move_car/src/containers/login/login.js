@@ -14,7 +14,7 @@ import Logo from '../../components/logo/logo'
 import {login} from '../../redux/actions'
 import '../../common/css/index.less'
 
-export default class Login extends Component{
+class Login extends Component{
     state = {
         username:'',
         password:''

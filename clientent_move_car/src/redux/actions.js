@@ -2,7 +2,8 @@ import {
     AUTH_SUCCESS,
     ERROR_MSG
 } from './action-types'
-
+import {reqRegister} from '../api/index'
+import {reqLogin} from '../api/index'
 // 同步错误消息
 const errorMsg = (msg) => ({type:ERROR_MSG, data: msg})
 // 同步成功响应
