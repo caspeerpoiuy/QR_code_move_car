@@ -13,6 +13,7 @@ import {connect} from 'react-redux'
 import {Redirect} from 'react-router-dom'
 import Logo from '../../components/logo/logo'
 import {register} from '../../redux/actions'
+import '../../common/css/index.less'
 
 export default class Register extends Component{
     state = {
@@ -30,15 +31,19 @@ export default class Register extends Component{
     }
 
     register = () => {
-        console.log(JSON.stringify(this.state))
+        this.props.register(this.state)
     }
     render(){
-        const {type} = this.state
+        const {redirecto,msg} = this.state
+        if (redirecto){
+            return <redirecto to={redirecto} />
+        }
         return(
             <div>
                 <NavBar>扫码挪车</NavBar>
                 <Logo/>
                 <WingBlank>
+                    {msg ? <p className='error-msg'>{msg}</p> : null}
                     <List>
                         <InputItem placeholder='输入用户名' onChange={val => this.handleChange('username', val)}>用户名:</InputItem>
                         <WhiteSpace/>
@@ -56,3 +61,8 @@ export default class Register extends Component{
         )
     }
 }
+
+export default connect(
+    state => state.user,
+    {register}
+)(Register)
