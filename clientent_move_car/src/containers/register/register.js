@@ -19,7 +19,7 @@ class Register extends Component{
     state = {
         username: '',
         password: '',
-        password2: '',
+        confirm_password: '',
     }
 
     handleChange = (name, value) => {
@@ -34,9 +34,9 @@ class Register extends Component{
         this.props.register(this.state)
     }
     render(){
-        const {redirecto,msg} = this.state
-        if (redirecto){
-            return <redirecto to={redirecto} />
+        const {redirectTo,msg} = this.props
+        if (redirectTo){
+            return <redirecto to={redirectTo} />
         }
         return(
             <div>
@@ -49,7 +49,7 @@ class Register extends Component{
                         <WhiteSpace/>
                         <InputItem type='password' placeholder='输入密码' onChange={val => this.handleChange('password', val)}>密&nbsp;&nbsp;&nbsp;码:</InputItem>
                         <WhiteSpace/>
-                        <InputItem type='password' placeholder='输入确认密码' onChange={val => this.handleChange('password2', val)}>确认密码:</InputItem>
+                        <InputItem type='password' placeholder='输入确认密码' onChange={val => this.handleChange('confirm_password', val)}>确认密码:</InputItem>
                         <WhiteSpace/>
                         <WhiteSpace/>
                         <Button type='primary' onClick={this.register}>注&nbsp;&nbsp;&nbsp;册</Button>
