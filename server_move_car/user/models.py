@@ -5,12 +5,13 @@ from hashlib import sha1
 def get_hash(str):
     sha = sha1()
     sha.update(str.encode("utf8"))
-    return sha.sh.hexdigest()
+    return sha.hexdigest()
 
 
 class UserManger(models.Manager):
     def add_one_user(self,username,password):
-        user = self.create(username,get_hash(password))
+        print(type(username),type(get_hash(password)))
+        user = self.create(username=username,password=get_hash(password))
         return user
 
     def get_one_user(self,username,password):
@@ -31,9 +32,9 @@ class UserManger(models.Manager):
 
 class User(models.Model):
     username = models.CharField(max_length=30,verbose_name="用户名")
-    password = models.CharField(max_length=30,verbose_name="密码")
+    password = models.CharField(max_length=50,verbose_name="密码")
 
-    object = UserManger()
+    objects = UserManger()
 
     class Meta:
         db_table = "User"
