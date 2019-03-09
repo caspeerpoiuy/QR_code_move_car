@@ -37,6 +37,7 @@ export function register({username, password, confirm_password}) {
 
 
 export const login = ({username, password}) => {
+    console.log(111)
     if (!username || !password) {
         return errorMsg('用户密码必须输入')
     }

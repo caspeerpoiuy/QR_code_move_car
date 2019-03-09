@@ -33,9 +33,9 @@ class Login extends Component{
     }
 
     render(){
-        const {redirectTo, msg} = this.props
+        const {redirectTo,msg} = this.props
         if (redirectTo) {
-            return <Redirect to={redirectTo}/>}
+            return <redirectTo to={redirectTo}/>}
         return(
             <div>
                 <NavBar>扫码挪车</NavBar>
@@ -45,10 +45,10 @@ class Login extends Component{
                     <List>
                         <InputItem placeholder="输入用户名" onChange={val => this.handleChange("username",val)}>用户名:</InputItem>
                         <WhiteSpace/>
-                        <InputItem placeholder="输入密码">密&nbsp;码:</InputItem>
+                        <InputItem placeholder="输入密码" onChange={val => this.handleChange("password",val)}>密&nbsp;码:</InputItem>
                         <WhiteSpace/>
                         <WhiteSpace/>
-                        <Button type='primary' onClick={this.register}>登&nbsp;&nbsp;&nbsp;录</Button>
+                        <Button type='primary' onClick={this.login}>登&nbsp;&nbsp;&nbsp;录</Button>
                         <WhiteSpace/>
                         <WhiteSpace/>
                         <Button type='primary' onClick={this.tologin}>注&nbsp;&nbsp;&nbsp;册</Button>
