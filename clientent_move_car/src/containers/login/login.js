@@ -35,7 +35,7 @@ class Login extends Component{
     render(){
         const {redirectTo,msg} = this.props
         if (redirectTo) {
-            return <redirectTo to={redirectTo}/>}
+            return <Redirect to={redirectTo}/>}
         return(
             <div>
                 <NavBar>扫码挪车</NavBar>
